@@ -1,0 +1,226 @@
+body, html {
+  margin: 0; padding: 0;
+  background-color: #0C0C0C;
+  font-family: poppins, sans-serif;
+  width: 100%; height: 100%;
+}
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500; color: #F1F1F1;
+  margin: auto;
+  font-size: 3rem;
+}
+
+
+.btn-2 {
+  color: #ffa500;
+  margin: auto;
+  font-size: 1rem;
+}
+
+
+.startup-icon {
+  width: 20%;
+}
+
+.navbar {
+  background-color: #0C0C0C;
+}
+
+.navbar a {
+  transition: all 1s;
+  border-radius: .25rem;
+  margin: 0 1rem;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500; font-size: 0.9rem;
+}
+
+.navbar a:hover {
+  transition: all 1s;
+  font-size: 1rem;
+  background-color: #ffa500;
+}
+
+.main-gallery {
+  position: absolute;
+  top: 85%; left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0; padding: 0;
+  width: 600px; height: 150px;
+}
+
+.main-gallery li {
+  list-style: none;
+  position: absolute;
+  width: 200px; height: 200px;
+  background: #0C0C0C;
+  transform: rotate(45deg);
+  transition: 0.5s;
+  margin: -100px;
+  overflow: hidden;
+  opacity: 0.6;
+}
+
+.main-gallery li:hover {
+  opacity: 1;
+}
+
+.main-gallery li.item-1 {
+  top: 0; left: 0;
+}
+
+.main-gallery li.item-2 {
+  bottom: 0; left: 25%;
+}
+
+.main-gallery li.item-3 {
+  top: 0; left: 50%;
+}
+
+.main-gallery li.item-4 {
+  bottom: 0; left: 75%;
+}
+
+.main-gallery li.item-5 {
+  top: 0; left: 100%;
+}
+
+.main-gallery li .bg {
+  width: 100%; height: 100%;
+  transform: scale(1.1);
+}
+
+.main-gallery li.item-1 .bg {
+  background: url(images/IlmuDewantara-CEO.png);
+  background-size: cover;
+  background-position: center;
+  transform: rotate(-45deg);
+}
+
+.main-gallery li.item-2 .bg {
+  background: url(images/IlmuDewantara-GraphicDesigner.png);
+  background-size: cover;
+  background-position: center;
+  transform: rotate(-45deg);
+}
+
+.main-gallery li.item-3 .bg {
+  background: url(images/IlmuDewantara-CFO.png);
+  background-size: cover;
+  background-position: center;
+  transform: rotate(-45deg);
+}
+
+.main-gallery li.item-4 .bg {
+  background: url(images/IlmuDewantara_videographer.png);
+  background-size: cover;
+  background-position: center;
+  transform: rotate(-45deg);
+}
+
+.main-gallery li.item-5 .bg {
+  background: url(images/IlmuDewantara-CTO.png);
+  background-size: cover;
+  background-position: center;
+  transform: rotate(-45deg);
+}
+
+
+
+.footer
+{
+  margin-top: 15em;
+  height: 4.5em; width: 100%;
+  color: #7411F6;
+  padding: 0;
+}
+
+.startup-icon {
+  width: 15%;
+}
+
+footer a, footer p
+{
+  padding: 0; margin: auto;
+  color: #F1F1F1; font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+
+footer i
+{
+  color: #FFD700;
+}
+
+
+.block
+{
+  color: #C0C0C0;
+  background-color: #C0C0C0;
+  padding: 5%;
+  height: 100%;
+}
+
+.block-1
+{
+  background-color: #C0C0C0;
+  height: 100%;
+}
+
+.full-page
+{
+  height: 100vh;
+}
+
+.block
+{
+  color: #f1f1f1;
+  align-content: center;
+  padding: 5%;
+ 
+}
+
+.block-1
+{
+  background-color: #0C0C0C;
+  height: 100%;
+}
+
+.block-2
+{
+  background-color: #0C0C0C;
+  height: 100%;
+}
+
+.block-3
+{
+  background-color: #0C0C0C;
+  height: 100%;
+}
+
+.block-4
+{
+  background-color: #324376;
+  height: 100%;
+}
+
+@media screen only and (min-width: 700px)
+{
+  
+  .block-2
+  {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .first-order-reponsive
+  {
+    order: 1;
+  }
+  
+  .second-order-responsive
+  {
+    order: 2;
+  }
+  
+}
